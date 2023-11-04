@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 100px;
+            width: 100px;
+            position: relative;
+            background-color: red;
+            animation-name: animation1;
+            animation-duration: 10s;
+            animation-delay: 2s;
+            
+        }
+        @keyframes animation1{
+            0%{background-color:yellow; left: 0px; top: 0px;}
+            25%{background-color:pink; left: 300px;top: 0px;}
+            50%{background-color: grey; left: 300px; top: 300px;}
+            75%{background-color: lightblue; left:0px;top: 300px; }
+            100%{background-color: yellowgreen; left: 0px; top: 0px;}
+        }
+       
+           
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+    
+</body>
+</html>
